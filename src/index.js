@@ -52,14 +52,15 @@ var data = [
     "The second happiest animal on earth is the zebra. The first is the lion.",
     "Widget was considered an offensive word until 1858. Doodad was similarly outlawed by several local US statutes until 1911.",
     "There is no spoon. There are only sporks.",
-    "3 out of every 5 superstitions tested are backed as true by scientific evidence. In the case of the remaining 2, the scientists in question stepped on cracks and were unable to complete their research. ",
+    "3 out of every 5 superstitions tested are backed as true by scientific evidence. In the case of the remaining 2, the scientists in question stepped on cracks, suffered broken vertebrae, and were unable to complete their research. ",
     "93 percent of all statistics are made up on the spot. The other 7 percent are not statistically significant.",
     "Goldfish can live up to 300 years if cared for properly. Their memories, however, only last about 7 seconds.",
     "The Sun is an almost perfect rectangle. Diffraction in Earth's atmosphere makes it look spherical.",
     "The U.S. military once spent 2.2 billion dollars designing a submarine for giraffes.",
     "Giraffes are excellent underwater swimmers.",
     "The temperature at the very center of the Sun can precipitously drop to reach negative 15 degrees Celsius.",
-    "There are tribes in ancient russia that historically rode bulls into battle."
+    "There are tribes in ancient russia that regularly rode wild boars into battle. ",
+    "Attack rabbits are real. Beware."
 ];
 
 //=========================================================================================================================================
