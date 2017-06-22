@@ -1,5 +1,33 @@
 'use strict';
-var Alexa = require('alexa-sdk');
+//var Alexa = require('alexa-sdk');
+
+var express = require("express");
+var alexa = require("alexa-app");
+
+var PORT = process.env.PORT || 8080;
+var app = express();
+
+// ALWAYS setup the alexa app and attach it to express before anything else.
+var alexaApp = new alexa.app("test");
+
+alexaApp.express({
+  expressApp: app,
+  //router: express.Router(),
+
+  // verifies requests come from amazon alexa. Must be enabled for production.
+  // You can disable this if you're running a dev environment and want to POST
+  // things to test behavior. enabled by default.
+  checkCert: true,
+
+  // sets up a GET route when set to true. This is handy for testing in
+  // development, but not recommended for production. disabled by default
+  debug: false
+});
+
+// now POST calls to /test in express will be handled by the app.request() function
+
+// from here on you can setup any other express routes or middlewares as normal
+app.set("view engine", "ejs");
 
 //=========================================================================================================================================
 //TODO: The items below this comment need your attention.
@@ -9,9 +37,9 @@ var Alexa = require('alexa-sdk');
 //Make sure to enclose your value in quotes, like this: var APP_ID = "amzn1.ask.skill.bb4045e6-b3e8-4133-b650-72923c5980f1";
 var APP_ID = undefined;
 
-var SKILL_NAME = "Space Facts";
+var SKILL_NAME = "Fake fun facts";
 var GET_FACT_MESSAGE = "Here's your fact: ";
-var HELP_MESSAGE = "You can say tell me a space fact, or, you can say exit... What can I help you with?";
+var HELP_MESSAGE = "You can say give me a fun fact, or, you can say exit... What can I help you with?";
 var HELP_REPROMPT = "What can I help you with?";
 var STOP_MESSAGE = "Goodbye!";
 
