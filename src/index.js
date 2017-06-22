@@ -47,19 +47,19 @@ var STOP_MESSAGE = "Goodbye!";
 //TODO: Replace this data with your own.  You can find translations of this data at http://github.com/alexa/skill-sample-node-js-fact/data
 //=========================================================================================================================================
 var data = [
-    "A year on Mercury is just 88 days long.",
-    "Despite being farther from the Sun, Venus experiences higher temperatures than Mercury.",
-    "Venus rotates counter-clockwise, possibly because of a collision in the past with an asteroid.",
-    "On Mars, the Sun appears about half the size as it does on Earth.",
-    "Earth is the only planet not named after a god.",
-    "Jupiter has the shortest day of all the planets.",
-    "The Milky Way galaxy will collide with the Andromeda Galaxy in about 5 billion years.",
-    "The Sun contains 99.86% of the mass in the Solar System.",
-    "The Sun is an almost perfect sphere.",
-    "A total solar eclipse can happen once every 1 to 2 years. This makes them a rare event.",
-    "Saturn radiates two and a half times more energy into space than it receives from the sun.",
-    "The temperature inside the Sun can reach 15 million degrees Celsius.",
-    "The Moon is moving approximately 3.8 cm away from our planet every year."
+    "Jeremiah was a turtle, not a bullfrog.", // He was a good friend to many, but not me.",
+    "There are 97 known varieties of grapefruit. They all taste the same.",
+    "The second happiest animal on earth is the zebra. The first is the lion.",
+    "Widget was considered an offensive word until 1858. Doodad was similarly outlawed by several local US statutes until 1911.",
+    "There is no spoon. There are only sporks.",
+    "3 out of every 5 superstitions tested are backed as true by scientific evidence. In the case of the remaining 2, the scientists in question stepped on cracks and were unable to complete their research. ",
+    "93 percent of all statistics are made up on the spot. The other 7 percent are not statistically significant.",
+    "Goldfish can live up to 300 years if cared for properly. Their memories, however, only last about 7 seconds.",
+    "The Sun is an almost perfect rectangle. Diffraction in Earth's atmosphere makes it look spherical.",
+    "The U.S. military once spent 2.2 billion dollars designing a submarine for giraffes.",
+    "Giraffes are excellent underwater swimmers.",
+    "The temperature at the very center of the Sun can precipitously drop to reach negative 15 degrees Celsius.",
+    "There are tribes in ancient russia that historically rode bulls into battle."
 ];
 
 //=========================================================================================================================================
